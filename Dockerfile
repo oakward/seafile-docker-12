@@ -43,7 +43,7 @@ RUN pip3 install --timeout=3600 \
     --no-cache-dir -i https://pypi.tuna.tsinghua.edu.cn/simple/
 
 # Scripts
-COPY scripts_12.0 /scripts
+COPY scripts /scripts
 COPY templates /templates
 COPY services /services
 
